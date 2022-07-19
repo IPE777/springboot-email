@@ -37,7 +37,7 @@ class SpringbootEmailApplicationTests {
             MimeMessage mimeMessage = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
 
-            helper.setSubject("通知-明天来狂神这听课");
+            helper.setSubject("通知-明天来这听课");
             helper.setText("<b style='color:red'>今天 7:30来开会</b>",true);
 
             //发送附件
